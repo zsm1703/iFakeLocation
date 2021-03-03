@@ -56,6 +56,10 @@ namespace iFakeLocation {
             {"iPhone12,3", "iPhone 11 Pro"},
             {"iPhone12,5", "iPhone 11 Pro Max"},
             {"iPhone12,8", "iPhone SE 2nd Gen"},
+			{"iPhone13,1" : "iPhone 12 Mini"},
+			{"iPhone13,2" : "iPhone 12"},
+			{"iPhone13,3" : "iPhone 12 Pro"},
+			{"iPhone13,4" : "iPhone 12 Pro Max"},
 
             {"iPod1,1", "1st Gen iPod"},
             {"iPod2,1", "2nd Gen iPod"},
@@ -121,6 +125,8 @@ namespace iFakeLocation {
             {"iPad11,2", "iPad mini 5th Gen"},
             {"iPad11,3", "iPad Air 3rd Gen (WiFi)"},
             {"iPad11,4", "iPad Air 3rd Gen"},
+			{"iPad13,1" : "iPad air 4th Gen (WiFi)"},
+			{"iPad13,2" : "iPad air 4th Gen (WiFi+Cellular)"},
 
             {"Watch1,1", "Apple Watch 38mm case"},
             {"Watch1,2", "Apple Watch 38mm case"},
@@ -139,7 +145,15 @@ namespace iFakeLocation {
             {"Watch5,1", "Apple Watch Series 5 40mm case (GPS)"},
             {"Watch5,2", "Apple Watch Series 5 44mm case (GPS)"},
             {"Watch5,3", "Apple Watch Series 5 40mm case (GPS+Cellular)"},
-            {"Watch5,4", "Apple Watch Series 5 44mm case (GPS+Cellular)"}
+            {"Watch5,4", "Apple Watch Series 5 44mm case (GPS+Cellular)"},
+            {"Watch5,9" : "Apple Watch SE 40mm case (GPS)"},
+			{"Watch5,10" : "Apple Watch SE 44mm case (GPS)"},
+			{"Watch5,11" : "Apple Watch SE 40mm case (GPS+Cellular)"},
+			{"Watch5,12" : "Apple Watch SE 44mm case (GPS+Cellular)"},
+			{"Watch6,1" : "Apple Watch Series 6 40mm case (GPS)"},
+			{"Watch6,2" : "Apple Watch Series 6 44mm case (GPS)"},
+			{"Watch6,3" : "Apple Watch Series 6 40mm case (GPS+Cellular)"},
+			{"Watch6,4" : "Apple Watch Series 6 44mm case (GPS+Cellular)"}
         };
 
         public string Name { get; }
