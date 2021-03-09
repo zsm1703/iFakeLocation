@@ -26,4 +26,4 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: Upload
-        path: iFakeLocation/bin/Release/net45/win-x86
+        path: iFakeLocation/bin/Debug/net45/win-x86
