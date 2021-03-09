@@ -19,11 +19,11 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore -c Debug
+      run: dotnet build --no-restore -c Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Upload Artifact
       uses: actions/upload-artifact@v1.0.0
       with:
         name: Upload
-        path: iFakeLocation/bin/Debug/net45/win-x86
+        path: iFakeLocation/bin/Release/net45/win-x86
